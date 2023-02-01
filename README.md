@@ -22,3 +22,10 @@ en una ventana de consulta de Heidi sql, abra el archivo:
 **provpar2.sql**
 
 ejecutelo, eso creara la base de datos en MySql.
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
