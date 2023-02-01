@@ -1,10 +1,10 @@
-# ```diff +pry_net_enero_2023```
+# pry_net_enero_2023
 ## Proyecto para la materia de aplicaciones NET
 Este proyecto funciona bajo:
 * Plataforma **Sharp develop 4.4**
 * **Framework 4.0**
 * Debe tener implementada la base de datos prvpar2 en mysql
-* El archivo ```diff -**provpas2.sql** ``` contiene las sentencias para crear la base de datos
+* El archivo **provpas2.sql** contiene las sentencias para crear la base de datos
 
 ## bajar el proyecto
 Baje el proyecto desde este repositorio, le creara la carpeta **\pry_net_enero_2023** con las subcarpetas nbecesarias para su proyecto
@@ -22,10 +22,11 @@ en una ventana de consulta de Heidi sql, abra el archivo:
 **provpar2.sql**
 
 ejecutelo, eso creara la base de datos en MySql.
+
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+- creado en febrero 2023
++ autor: jflores
+! acdemia: programación
+# fci
+@@ unacar@@
 ```
