@@ -1,14 +1,14 @@
 # pry_net_enero_2023
 ## Proyecto para la materia de aplicaciones NET
 Este proyecto funciona bajo:
-* Plataforma **Sharp develop 4.4**
+* Plataforma **Sharp develop 4.4** (SD) 
 * **Framework 4.0**
 * Debe tener implementada la base de datos prvpar2 en mysql
 * El archivo **provpas2.sql** contiene las sentencias para crear la base de datos
 
 ## bajar el proyecto
-Baje el proyecto desde este repositorio, le creara la carpeta **\pry_net_enero_2023** con las subcarpetas nbecesarias para su proyecto
-Debe tener instalado el Sharp develop 4.4
+Baje el proyecto desde este repositorio, le creara la carpeta **\pry_net_enero_2023** con las subcarpetas necesarias para su proyecto
+Debe tener instalado el Sharp develop 4.4 sobre el framework NET 4.0
 Para cargar el proyecto en su SD, dentro de la carpeta **\pry_net_enero_2023** de clic derecho en el archivo:
 **pry_net_enero_2023.sln** y selecione abrir con **Sharp Develop**.
 
@@ -23,6 +23,8 @@ en una ventana de consulta de Heidi sql, abra el archivo:
 
 ejecutelo, eso creara la base de datos en MySql.
 
+Listo tiene el proyecto preparado para trabajar en el.
+
 ```diff
 - creado en febrero 2023
 + autor: jflores
@@ -30,4 +32,4 @@ ejecutelo, eso creara la base de datos en MySql.
 # fci
 @@ unacar@@
 ```
-$${\color{red}rojo \space\color{blue}azul}$$
+$${\color{red}jflores \space\color{blue}pampano}$$
