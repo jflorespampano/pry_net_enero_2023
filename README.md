@@ -1,10 +1,10 @@
 # pry_net_enero_2023
-## Proyecto apra la materia de aplicaciones NET
+## Proyecto para la materia de aplicaciones NET
 Este proyecto funciona bajo:
 * Plataforma **Sharp develop 4.4**
 * **Framework 4.0**
 * Debe tener implementada la base de datos prvpar2 en mysql
-* El archivo **provpas2.sql** contiene las sentencias para crear la base de datos
+* El archivo `#ff0000`**provpas2.sql** contiene las sentencias para crear la base de datos
 
 ## bajar el proyecto
 Baje el proyecto desde este repositorio, le creara la carpeta **\pry_net_enero_2023** con las subcarpetas nbecesarias para su proyecto
