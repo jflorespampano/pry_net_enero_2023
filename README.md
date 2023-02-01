@@ -28,6 +28,7 @@ Listo tiene el proyecto preparado para trabajar en el.
 # instlaciones
 Puede instalar Xamp desde:
 [XAMP](https://www.apachefriends.org/download.html)
+
 Puede instalar Heidi sql desde:
 [Heidi Sql](https://www.heidisql.com)
 
