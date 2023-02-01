@@ -14,14 +14,13 @@ Para cargar el proyecto en su SD, dentro de la carpeta **\pry_net_enero_2023** d
 
 ## instalar la base de datos
 debe tener instalado un servidor de **MySql**, este ejemplo asume que tiene instalado **XAMP server**.
-este ejemplo tambien asume que tiene instalado el cliente de base de datos **HEIDI SQL** (aunque puede usar otro)
-arranuqe el **XAMP server**.
-arranque **Heidi Sql** y conectese a **MySql**
-en una ventana de consulta de Heidi sql, abra el archivo:
-
-**provpar2.sql**
-
-ejecutelo, eso creara la base de datos en MySql.
+este ejemplo tambien asume que tiene instalado el cliente de base de datos **HEIDI SQL** (aunque puede usar otro).
+Para instlar la BD haga:
+1. arranuqe el **XAMP server**.
+2. arranque **Heidi Sql** y conectese a **MySql**
+3. abra una ventana de consulta de Heidi sql, 
+4. abra el archivo: **provpar2.sql**
+5. ejecutelo como una consulta, eso creara la base de datos en MySql.
 
 Listo tiene el proyecto preparado para trabajar en el.
 
