@@ -26,13 +26,15 @@ ejecutelo, eso creara la base de datos en MySql.
 Listo tiene el proyecto preparado para trabajar en el.
 
 # instlaciones
+Puede instalar Xamp desde:
+[XAMP](https://www.apachefriends.org/download.html)
 Puede instalar Heidi sql desde:
 [Heidi Sql](https://www.heidisql.com)
 
 Puede descargar SD desde:
 [Sharp Develop](https://sourceforge.net/projects/sharpdevelop/)
 
-Puede descargar el Framewor de NET 4.o desde:
+Puede descargar el Framewor de NET 4.0 desde:
 [Framework 4.0](https://dotnet.microsoft.com/es-es/download/dotnet-framework/net40)
 ```diff
 - creado en febrero 2023
