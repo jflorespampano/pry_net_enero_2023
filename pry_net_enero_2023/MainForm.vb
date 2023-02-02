@@ -15,4 +15,8 @@ Public Partial Class MainForm
 		' TODO : Add constructor code after InitializeComponents
 		'
 	End Sub
+	
+	Sub MostrarToolStripMenuItemClick(sender As Object, e As EventArgs)
+		My.Forms.frmmostrarPartes.ShowDialog
+	End Sub
 End Class

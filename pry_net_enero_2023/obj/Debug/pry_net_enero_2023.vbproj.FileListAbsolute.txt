@@ -5,3 +5,4 @@ C:\Users\Docente\Documents\SharpDevelop Projects\pry_net_enero_2023\pry_net_ener
 C:\Users\Docente\Documents\SharpDevelop Projects\pry_net_enero_2023\pry_net_enero_2023\obj\Debug\pry_net_enero_2023.vbproj.GenerateResource.Cache
 C:\Users\Docente\Documents\SharpDevelop Projects\pry_net_enero_2023\pry_net_enero_2023\obj\Debug\pry_net_enero_2023.exe
 C:\Users\Docente\Documents\SharpDevelop Projects\pry_net_enero_2023\pry_net_enero_2023\obj\Debug\pry_net_enero_2023.pdb
+C:\Users\Docente\Documents\SharpDevelop Projects\pry_net_enero_2023\pry_net_enero_2023\obj\Debug\pry_net_enero_2023.frmmostrarPartes.resources

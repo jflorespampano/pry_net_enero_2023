@@ -35,25 +35,26 @@ Partial Class MainForm
 	Private Sub InitializeComponent()
 		Me.menuStrip1 = New System.Windows.Forms.MenuStrip()
 		Me.proveedoresToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.partesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.tipoParteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-		Me.clientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.altaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.bajaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.buscarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.listarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+		Me.partesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.altasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.bajasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.actualizarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.buscarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+		Me.tipoParteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.altasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.bajasToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.actualizarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.listarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+		Me.clientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.altasToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.najasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.actualizarToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
 		Me.listarToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+		Me.mostrarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
 		Me.menuStrip1.SuspendLayout
 		Me.SuspendLayout
 		'
@@ -72,27 +73,6 @@ Partial Class MainForm
 		Me.proveedoresToolStripMenuItem.Name = "proveedoresToolStripMenuItem"
 		Me.proveedoresToolStripMenuItem.Size = New System.Drawing.Size(84, 20)
 		Me.proveedoresToolStripMenuItem.Text = "proveedores"
-		'
-		'partesToolStripMenuItem
-		'
-		Me.partesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.altasToolStripMenuItem, Me.bajasToolStripMenuItem, Me.actualizarToolStripMenuItem, Me.buscarToolStripMenuItem1})
-		Me.partesToolStripMenuItem.Name = "partesToolStripMenuItem"
-		Me.partesToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
-		Me.partesToolStripMenuItem.Text = "partes"
-		'
-		'tipoParteToolStripMenuItem
-		'
-		Me.tipoParteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.altasToolStripMenuItem1, Me.bajasToolStripMenuItem1, Me.actualizarToolStripMenuItem1, Me.listarToolStripMenuItem1})
-		Me.tipoParteToolStripMenuItem.Name = "tipoParteToolStripMenuItem"
-		Me.tipoParteToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
-		Me.tipoParteToolStripMenuItem.Text = "tipoParte"
-		'
-		'clientesToolStripMenuItem
-		'
-		Me.clientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.altasToolStripMenuItem2, Me.najasToolStripMenuItem, Me.actualizarToolStripMenuItem2, Me.listarToolStripMenuItem2})
-		Me.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem"
-		Me.clientesToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
-		Me.clientesToolStripMenuItem.Text = "clientes"
 		'
 		'altaToolStripMenuItem
 		'
@@ -118,6 +98,13 @@ Partial Class MainForm
 		Me.listarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
 		Me.listarToolStripMenuItem.Text = "listar"
 		'
+		'partesToolStripMenuItem
+		'
+		Me.partesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.altasToolStripMenuItem, Me.bajasToolStripMenuItem, Me.actualizarToolStripMenuItem, Me.buscarToolStripMenuItem1, Me.mostrarToolStripMenuItem})
+		Me.partesToolStripMenuItem.Name = "partesToolStripMenuItem"
+		Me.partesToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
+		Me.partesToolStripMenuItem.Text = "partes"
+		'
 		'altasToolStripMenuItem
 		'
 		Me.altasToolStripMenuItem.Name = "altasToolStripMenuItem"
@@ -141,6 +128,13 @@ Partial Class MainForm
 		Me.buscarToolStripMenuItem1.Name = "buscarToolStripMenuItem1"
 		Me.buscarToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
 		Me.buscarToolStripMenuItem1.Text = "buscar"
+		'
+		'tipoParteToolStripMenuItem
+		'
+		Me.tipoParteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.altasToolStripMenuItem1, Me.bajasToolStripMenuItem1, Me.actualizarToolStripMenuItem1, Me.listarToolStripMenuItem1})
+		Me.tipoParteToolStripMenuItem.Name = "tipoParteToolStripMenuItem"
+		Me.tipoParteToolStripMenuItem.Size = New System.Drawing.Size(67, 20)
+		Me.tipoParteToolStripMenuItem.Text = "tipoParte"
 		'
 		'altasToolStripMenuItem1
 		'
@@ -166,29 +160,43 @@ Partial Class MainForm
 		Me.listarToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
 		Me.listarToolStripMenuItem1.Text = "listar"
 		'
+		'clientesToolStripMenuItem
+		'
+		Me.clientesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.altasToolStripMenuItem2, Me.najasToolStripMenuItem, Me.actualizarToolStripMenuItem2, Me.listarToolStripMenuItem2})
+		Me.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem"
+		Me.clientesToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
+		Me.clientesToolStripMenuItem.Text = "clientes"
+		'
 		'altasToolStripMenuItem2
 		'
 		Me.altasToolStripMenuItem2.Name = "altasToolStripMenuItem2"
-		Me.altasToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+		Me.altasToolStripMenuItem2.Size = New System.Drawing.Size(124, 22)
 		Me.altasToolStripMenuItem2.Text = "altas"
 		'
 		'najasToolStripMenuItem
 		'
 		Me.najasToolStripMenuItem.Name = "najasToolStripMenuItem"
-		Me.najasToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+		Me.najasToolStripMenuItem.Size = New System.Drawing.Size(124, 22)
 		Me.najasToolStripMenuItem.Text = "bajas"
 		'
 		'actualizarToolStripMenuItem2
 		'
 		Me.actualizarToolStripMenuItem2.Name = "actualizarToolStripMenuItem2"
-		Me.actualizarToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+		Me.actualizarToolStripMenuItem2.Size = New System.Drawing.Size(124, 22)
 		Me.actualizarToolStripMenuItem2.Text = "actualizar"
 		'
 		'listarToolStripMenuItem2
 		'
 		Me.listarToolStripMenuItem2.Name = "listarToolStripMenuItem2"
-		Me.listarToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
+		Me.listarToolStripMenuItem2.Size = New System.Drawing.Size(124, 22)
 		Me.listarToolStripMenuItem2.Text = "listar"
+		'
+		'mostrarToolStripMenuItem
+		'
+		Me.mostrarToolStripMenuItem.Name = "mostrarToolStripMenuItem"
+		Me.mostrarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+		Me.mostrarToolStripMenuItem.Text = "mostrar"
+		AddHandler Me.mostrarToolStripMenuItem.Click, AddressOf Me.MostrarToolStripMenuItemClick
 		'
 		'MainForm
 		'
@@ -204,6 +212,7 @@ Partial Class MainForm
 		Me.ResumeLayout(false)
 		Me.PerformLayout
 	End Sub
+	Private mostrarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 	Private listarToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
 	Private actualizarToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
 	Private najasToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
