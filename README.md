@@ -18,8 +18,8 @@ este ejemplo tambien asume que tiene instalado el cliente de base de datos **HEI
 Para instlar la BD haga:
 1. arranque el **XAMP server**.
 2. arranque **Heidi Sql** y conectese a **MySql**
-3. abra una ventana de consulta de Heidi sql, 
-4. abra el archivo: **provpar2.sql**
+3. en Heidi, abra el archivo: **provpar2.sql** , 
+4. Heidi lo abrirá en una ventana de consulta
 5. ejecutelo como una consulta, eso creara la base de datos en MySql.
 
 Listo tiene el proyecto preparado para trabajar en el.
